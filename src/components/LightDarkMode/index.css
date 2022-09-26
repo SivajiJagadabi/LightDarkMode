@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.dark-mode {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+.heading {
+  color: black;
+}
+
+button {
+  color: black;
+  background-color: white;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
